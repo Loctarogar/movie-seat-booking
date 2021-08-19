@@ -78,13 +78,13 @@ span {
 .desk ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .desk ul li {
   /* background: chartreuse; */
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   /* justify-content: space-around; */
 }
 
