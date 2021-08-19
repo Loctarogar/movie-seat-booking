@@ -32,6 +32,10 @@ span {
   border-top-right-radius: 10px;
 }
 
+.seat:hover {
+  transform: scale(1.2);
+}
+
 .occupied {
   background: var(--light-color);
 }
@@ -83,6 +87,10 @@ span {
 
 .desk ul li {
   display: flex;
+}
+
+.desk .seat:hover {
+  transform: scale(1);
 }
 
 /* Container screen */
