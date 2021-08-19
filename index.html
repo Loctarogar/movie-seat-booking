@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
     <title>Choose Seats</title>
   </head>
   <body>
@@ -39,7 +40,7 @@
 
         <div class="screen"></div>
 
-        <div class="seats">
+        <div class="seats" id="seats">
           <div class="left">
             <div class="seat occupied"></div>
             <div class="seat occupied"></div>
@@ -98,7 +99,7 @@
         <div id="total-cost">
           <p>
             You have selected <span id="number-of-seats">6</span> seats for a
-            price of <span id="payment"></span>
+            price of <span id="ticket-cost"></span>
           </p>
         </div>
       </div>
