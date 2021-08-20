@@ -7,6 +7,6 @@ document.addEventListener("click", (e) => {
     e.target.classList.contains("seat") &&
     !e.target.classList.contains("occupied")
   ) {
-    console.log("ff");
+    e.target.classList.toggle("selected");
   }
 });
