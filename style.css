@@ -93,6 +93,10 @@ span {
   display: flex;
 }
 
+.desk ul li:last-child div {
+  background: var(--selected-seat-color);
+}
+
 /* Container screen */
 
 .container .screen {
